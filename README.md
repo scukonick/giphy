@@ -13,7 +13,7 @@ Go library for the [Giphy API](https://github.com/Giphy/GiphyAPI)
 ### Installation
 
 ```bash
-go get -u github.com/peterhellberg/giphy/cmd/giphy
+go get -u github.com/scukonick/giphy/cmd/giphy
 ```
 
 ### Usage

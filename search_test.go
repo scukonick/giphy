@@ -21,7 +21,10 @@ func TestSearch(t *testing.T) {
 		}`, &requests)
 		defer server.Close()
 
-		search, err := client.Search([]string{tt.q})
+		searchQ := SearchQuery{
+			Q: []string{tt.q},
+		}
+		search, err := client.Search(searchQ)
 		if err != nil {
 			t.Errorf(`unexpected error %v`, err)
 		}

@@ -6,7 +6,7 @@ Installation
 
 Just go get the command:
 
-		go get -u github.com/peterhellberg/giphy/cmd/giphy
+		go get -u github.com/scukonick/giphy/cmd/giphy
 
 Configuration
 
@@ -43,7 +43,7 @@ import (
 	"os"
 	"strings"
 
-	"github.com/peterhellberg/giphy"
+	"github.com/scukonick/giphy"
 )
 
 func main() {
